@@ -1,0 +1,89 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+#map {
+	position: absolute;
+	background-image: url('image/map.png');
+	width:1545px;
+	height: 1101px;
+	z-index: -1;
+	display: inline-block;
+
+}
+
+#menu{
+  font-family: impact;
+  font-size: 22px;
+  color: black;
+  margin-right: 5%;
+  text-decoration: none;
+  padding-top: 30px;
+}
+
+#menu a{
+  text-decoration: none;
+}
+
+#menu a:visited{
+  text-decoration: none;
+}
+
+
+.zone {
+
+position: relative;
+ width:170px;
+height:170px;
+background:#069;
+-webkit-border-radius:2000px;
+-moz-border-radius:2000px;
+-o-border-radius:2000px;
+border-radius:2000px;
+border: 8px solid black;
+
+}
+
+.zone p{
+	text-align: center;
+	font-family: impact;
+	color: black;
+	margin-top: 50%;
+
+}
+
+#zone1 {
+
+	margin-left: 28%;
+	margin-top: 30%;
+	opacity: 0.3;
+}
+
+#zone2 {
+
+	margin-left: 75%;
+	margin-top: -19%;
+	opacity: 0.3;
+}
+
+#perso1 {
+	position: relative;
+	background-image: url('image/perso.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 140px;
+	height: 280px;
+	top: auto;
+	left: auto;
+/*	margin-top: 26%;
+	margin-left: 2.5%;*/
+	/*border: 3px solid black;*/
+}
+
+#perso1 p{
+	position: absolute;
+	bottom: 0;
+}

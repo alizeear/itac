@@ -1,0 +1,149 @@
+body{
+	background-image:url('fond_v1.jpg');
+	background-position:center top;
+}
+.BLEU{
+	background-color:#4c50d8;
+	height:100px;
+	width:100px;
+}
+.ROUGE{
+	background-color:#d22323;
+	height:100px;
+	width:100px;
+}
+
+.JAUNE{
+	background-color:yellow;
+	height:100px;
+	width:100px;
+}
+
+.ORANGE{
+	background-color:#ff6c00;
+	height:100px;
+	width:100px;
+}
+
+.VIOLET{
+	background-color:#8f489a;
+	height:100px;
+	width:100px;
+}
+
+.ROSE{
+	background-color:#fc5cd1;
+	height:100px;
+	width:100px;
+}
+
+#gros{
+	width:1010px;
+}
+.enhaut{
+}
+
+.milieu{
+	height:450px;
+}
+
+.adroite{
+	max-width:150px;
+	position:relative;
+	margin-bottom:160px;
+	height:245px;
+}
+
+.agauche{
+	position:relative;
+	margin-left:110px;
+	margin-top:0px;
+}
+
+#content{
+	width:1110px;
+	max-height:1080px;
+	margin:auto;
+	margin-top: 200px;
+	background-color:rgba(255, 255, 255, 0.6);
+}
+
+#div3 div img, #div1 div img, #div2 div img, #div4 div img, #div5 div img{
+	width:100px;
+}
+
+#content table{
+	margin:auto;
+}
+
+#content table td{
+}
+
+.cote{
+	width:245px;
+	max-width:245px;
+}
+
+#tuto{
+	display:none;
+	color:white;
+	text-shadow:1px 1px 1px black;
+	font-family: Impact;
+	font-size:30px;
+	width:1000px;
+	background: rgba(0,0,0,0.7);
+	position:absolute;
+	margin-top:-430px;
+	padding:20px;
+	text-align: center;
+	letter-spacing: 2px;
+	margin-left:200px;
+}
+
+.ombre{
+	-moz-box-shadow: 0 0 5px 5px #888;
+	-webkit-box-shadow: 0 0 5px 5px#888;
+	box-shadow: 0 0 5px 5px #888;
+}
+
+#aumilieu p{
+	text-align: center;
+	font-size:30px;
+	margin-top:-30px;
+	font-family: Impact;
+}
+
+.messageAlerte{
+	text-align: center;
+	color:white;
+	position:absolute;
+	width:800px;
+	font-size:24px;
+	height:300px;
+	font-family: Impact;
+	background-color:rgba(0,0,0,0.7);
+	margin-top:-470px;
+	margin-left: 300px;
+}
+
+.messageAlerte p{
+	width:100%;
+	font-size:32px;
+}
+
+.messageAlerte a{
+	cursor:pointer;
+}
+
+#menu{
+  font-family: impact;
+  font-size: 22px;
+  color: black;
+  margin-right: 5%;
+  text-decoration: none;
+  padding-top: 30px;
+}
+
+#menu a{
+  text-decoration: none;
+}

@@ -1,0 +1,1 @@
+$( "#aumilieu" ).droppable({

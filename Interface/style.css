@@ -1,0 +1,70 @@
+body{
+	background-image:url('images/fondlogo.jpg');
+}
+
+table{
+	margin-left: 540px;
+	margin-top:280px;
+}
+
+#content img{
+	position:relative;
+	z-index: 999;
+}
+
+.milieu{
+	width:580px;
+}
+
+#change{
+	border:15px solid rgba(255,255,255,0.7);
+	border-radius:50%;
+	width:522px;
+	height:522px;
+	position:absolute;
+	margin-left:675px;
+	margin-top:-15px;
+	z-index: 500;
+}
+
+.decalmaxgauche{
+	margin-left:40px;
+}
+
+.decalmaxdroite{
+	margin-left:-40px;
+}
+
+.centregauche{
+	margin-left:-20px;
+}
+
+.centredroit{
+	margin-left:20px;
+}
+
+#drop{
+	border-radius:50%;
+	width:522px;
+	height:522px;
+	position:absolute;
+	margin-left:685px;
+	margin-top:-10px;
+	z-index: 700;
+}
+
+#date{
+	font-size:80px;
+	color:white;
+	font-family: Impact;
+	margin-top:-150px;
+	text-align: center;
+}
+
+#heure {
+	font-size:80px;
+	color:white;
+	font-family: Impact;
+	text-align: center;
+	margin-top:50px;
+}
